@@ -31,7 +31,7 @@ static const CGFloat MBDefaultDetailsLabelFontSize = 12.f;
 @property (nonatomic, weak) NSTimer *minShowTimer;
 @property (nonatomic, weak) NSTimer *hideDelayTimer;
 @property (nonatomic, weak) CADisplayLink *progressObjectDisplayLink;
-
+// 增加属性设置
 @end
 
 
