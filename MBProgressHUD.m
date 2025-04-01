@@ -17,7 +17,7 @@ static const CGFloat MBDefaultDetailsLabelFontSize = 12.f;
 
 
 @interface MBProgressHUD ()
-// 在此测试fork结过hahh 
+// 在此测试fork结过hahh
 @property (nonatomic, assign) BOOL useAnimation;
 @property (nonatomic, assign, getter=hasFinished) BOOL finished;
 @property (nonatomic, strong) UIView *indicator;
@@ -50,7 +50,7 @@ static const CGFloat MBDefaultDetailsLabelFontSize = 12.f;
     [hud showAnimated:animated];
     return hud;
 }
-
+// 在此测试fork结过666
 + (BOOL)hideHUDForView:(UIView *)view animated:(BOOL)animated {
     MBProgressHUD *hud = [self HUDForView:view];
     if (hud != nil) {
