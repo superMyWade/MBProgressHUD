@@ -42,7 +42,7 @@ static const CGFloat MBDefaultDetailsLabelFontSize = 12.f;
 @implementation MBProgressHUD
 
 #pragma mark - Class methods
-
+// 在此测试fork结过
 + (instancetype)showHUDAddedTo:(UIView *)view animated:(BOOL)animated {
     MBProgressHUD *hud = [[self alloc] initWithView:view];
     hud.removeFromSuperViewOnHide = YES;
